@@ -27,7 +27,7 @@ function check(){
 
                
             }
-            // else if (values!=value){
+            //  if (values!=value){
             //  document.getElementById("message").innerHTML="You just lost $50"
 
              
@@ -66,6 +66,8 @@ function check(){
             }
             else{
                 console.log("Lost")
+             document.getElementById("error").innerHTML="You just lost $50"
+
             }
 
           //  console.log(count)
